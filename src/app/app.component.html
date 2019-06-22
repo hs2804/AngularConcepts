@@ -1,3 +1,14 @@
-<h3>I am on the parent Component!</h3>
-<hr>
-<app-servers></app-servers>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h3>I am on the parent Component!</h3>
+            <hr>
+            <!-- The preferred way of using components is as below -->
+            <app-servers></app-servers>
+            <!-- Remember that we can use components as attribute as well as class as below-->
+            <!-- However we can not use as ID as it does not support-->
+            <!-- <div app-servers></div>-->
+            <!-- <div class="app-servers"></div>-->
+        </div>
+    </div>
+</div>
